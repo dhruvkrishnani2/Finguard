@@ -1,0 +1,24 @@
+{
+    "xgboost_threshold": 0.45000000000000007,
+    "vae_threshold": 1.9984693412780765,
+    "vae_reference": 1.3391562947851183,
+    "vae_max_adjustment": 10.0,
+    "risk_levels": {
+        "low": {
+            "min": 0,
+            "max": 29.99
+        },
+        "medium": {
+            "min": 30,
+            "max": 59.99
+        },
+        "high": {
+            "min": 60,
+            "max": 79.99
+        },
+        "critical": {
+            "min": 80,
+            "max": 100
+        }
+    }
+}
